@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+#nav {
+  height: 90px;
+  background-color: black;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  margin: 0;
+}
+a {
+  color: white;
+  margin-right: 50px;
+  text-decoration: none;
+}
+button {
+  padding: 15px 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-left: 70px;
+}
+#container {
+  width: 1000px;
+  height: 450px;
+
+  margin: 50px auto;
+}
+h2 {
+  margin: 0;
+  margin-left: 25px;
+  color: green;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+}

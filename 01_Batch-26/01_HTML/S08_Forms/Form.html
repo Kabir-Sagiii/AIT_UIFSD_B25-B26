@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+
+  <body>
+    <h1>Form Concept in HTML</h1>
+
+    <form>
+      <h1>Data List</h1>
+
+      <input type="text" list="mylist" />
+
+      <datalist id="mylist">
+        <option>React JS</option>
+        <option>Rest API</option>
+        <option>Angular</option>
+        <option>HTML</option>
+      </datalist>
+    </form>
+    <br /><br />
+    <form>
+      <label for="username">User Name</label>
+      <input
+        id="username"
+        value="Kabir"
+        placeholder="enter username"
+        readonly
+        size="20"
+      />
+
+      <label for="password">Password</label>
+      <input
+        id="password"
+        type="password"
+        required
+        minlength="5"
+        maxlength="7"
+      />
+
+      <label for="email">Email Id</label>
+      <input id="email" type="email" />
+
+      <label for="number">Phone</label>
+      <input id="number" type="number" />
+
+      <br />
+      <br />
+
+      <label>Button</label>
+      <input type="button" disabled value="Logout" />
+
+      <label>Submit</label>
+      <input type="submit" />
+
+      <label>Reset</label>
+      <input type="reset" />
+      <br /><br />
+      <label for="male">Male</label>
+      <input type="radio" checked name="gender" />
+
+      <label for="female">Female</label>
+      <input type="radio" name="gender" />
+
+      <label for="other">Other</label>
+      <input type="radio" name="gender" />
+
+      <br /><br />
+      <label for="html">HTML</label>
+      <input type="checkbox" checked />
+
+      <label for="css">CSS</label>
+      <input type="checkbox" />
+
+      <label for="js">JS</label>
+      <input type="checkbox" checked />
+
+      <input type="file" multiple />
+      <input type="date" />
+      <input type="time" />
+    </form>
+
+    <form>
+      <h1>Dropdown</h1>
+      <select>
+        <option>Pune</option>
+        <option>Mumbai</option>
+        <option>Hyderabad</option>
+      </select>
+      <h1>textarea</h1>
+      <textarea rows="10" cols="30"> </textarea>
+    </form>
+  </body>
+</html>

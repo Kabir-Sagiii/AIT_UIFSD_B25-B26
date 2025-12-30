@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div {
+        width: 500px;
+        box-shadow: 0 0 10px black;
+        margin: 20px;
+        padding: 20px;
+      }
+      #temp {
+        border: none;
+        outline: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Form Concept</h1>
+    <form>
+      <div>
+        <h3>textarea element</h3>
+        <textarea rows="10" cols="40"></textarea>
+      </div>
+      <div>
+        <h3>select element</h3>
+        <select>
+          <option>hyd</option>
+          <option>delhi</option>
+          <option>pune</option>
+        </select>
+      </div>
+      <div>
+        <h3>type="file"</h3>
+        <input type="file" multiple />
+      </div>
+      <div>
+        <h3>type="button" / value="any text"</h3>
+        <input type="button" value="logout" />
+      </div>
+      <div>
+        <h3>type="checkbox"</h3>
+        <input type="checkbox" checked />
+        <label for="">HTML</label>
+
+        <input type="checkbox" checked />
+        <label for="">CSS</label>
+
+        <input type="checkbox" />
+        <label for="">JS</label>
+
+        <input type="checkbox" />
+        <label for="">React JS</label>
+      </div>
+      <div>
+        <h3>type="radio"</h3>
+        <input type="radio" checked name="gender" />
+        <label for="">male</label>
+
+        <input type="radio" name="gender" />
+        <label for="">female</label>
+      </div>
+      <div>
+        <h3>type="number"</h3>
+        <input type="number" placeholder="number" />
+      </div>
+      <div>
+        <fieldset>
+          <legend>username</legend>
+          <input type="text" id="temp" />
+        </fieldset>
+
+        <h3>type="text" / size="" / required</h3>
+        <input type="text" size="2" required placeholder="username" />
+      </div>
+
+      <div>
+        <h3>type="password" / placceholder="hint" / minlength / maxlength</h3>
+        <input
+          minlength="5"
+          maxlength="7"
+          type="password"
+          placeholder="enter password"
+        />
+      </div>
+
+      <div>
+        <h3>type="email" / disabled</h3>
+        <input type="email" disabled placeholder="email id" />
+      </div>
+    </form>
+    <form></form>
+    <form></form>
+  </body>
+</html>
