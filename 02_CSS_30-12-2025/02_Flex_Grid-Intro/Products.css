@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+#navbar {
+  background-color: black;
+  height: 80px;
+}
+#categories {
+  width: 1150px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+#categories div {
+  text-align: center;
+  color: green;
+}
+#categories img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px green;
+}
+.card {
+  width: 330px;
+  height: 420px;
+  box-shadow: 0 0 10px black;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.card button {
+  padding: 15px 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#products {
+  width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
