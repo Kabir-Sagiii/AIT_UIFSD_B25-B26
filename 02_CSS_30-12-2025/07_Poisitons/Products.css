@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  height: 100px;
+  box-shadow: 0 0 10px black;
+  display: grid;
+  grid-template-columns: 35% 45% 20%;
+}
+
+#brand h1 {
+  font-size: 52px;
+  color: tomato;
+}
+
+#menus a {
+  margin-right: 50px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#icons i {
+  color: tomato;
+  margin-right: 20px;
+  font-size: 27px;
+}
+
+#icons button {
+  border: none;
+  padding: 15px 30px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
+#categories {
+  width: 1150px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+#categories div {
+  text-align: center;
+  color: tomato;
+}
+#categories img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px tomato;
+  margin-bottom: 20px;
+}
+.card {
+  width: 330px;
+  box-shadow: 0 0 10px tomato;
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.card h3 {
+  margin: 20px 0px;
+  color: tomato;
+}
+.card p {
+  margin: 15px 0px;
+  font-style: italic;
+}
+.card button {
+  padding: 15px 30px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#products {
+  width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.gridCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

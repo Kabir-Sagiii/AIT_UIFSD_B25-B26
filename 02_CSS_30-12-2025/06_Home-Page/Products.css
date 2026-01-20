@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  height: 100px;
+  box-shadow: 0 0 10px black;
+  display: grid;
+  grid-template-columns: 35% 45% 20%;
+}
+
+#brand h1 {
+  font-size: 52px;
+  color: tomato;
+}
+
+#menus a {
+  margin-right: 50px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#icons i {
+  color: green;
+  margin-right: 20px;
+  font-size: 27px;
+}
+
+#icons button {
+  border: none;
+  padding: 15px 30px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
+#categories {
+  width: 1150px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+#categories div {
+  text-align: center;
+  color: green;
+}
+#categories img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px green;
+}
+.card {
+  width: 330px;
+  height: 420px;
+  box-shadow: 0 0 10px black;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.card button {
+  padding: 15px 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#products {
+  width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.gridCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
