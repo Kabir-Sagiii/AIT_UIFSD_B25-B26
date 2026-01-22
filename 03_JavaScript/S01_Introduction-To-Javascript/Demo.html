@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      h1 {
+        color: green;
+      }
+    </style>
+    <script>
+      function creeate() {
+        document.querySelector("h1").style.color = "red";
+        const p = document.createElement("p");
+        p.textContent = ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quo,
+  exercitationem nulla fuga nesciunt iure ducimus tempore aut explicabo a eos
+  dolorem veniam id est! Labore error perferendis harum quidem placeat, eum
+  delectus inventore quas. Sunt vel aliquam quos nostrum!`;
+
+        document.querySelector("body").appendChild(p);
+
+        const img = document.createElement("img");
+        img.src =
+          "https://techcloudltd.com/wp-content/uploads/2024/06/male-professional-headshots-1024x638.webp";
+        img.width = "500";
+        img.height = "300";
+        document.querySelector("body").appendChild(img);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Welcome to Javascript</h1>
+    <button onclick="creeate()">Submit</button>
+  </body>
+</html>
