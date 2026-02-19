@@ -1,0 +1,8 @@
+Promises in Javascript : 1hr 20min
+===================================
+https://youtu.be/ialfZyeAbaY?si=4w7KVrlm2uA24MeQ
+
+
+Module System : Es6 Module Pattern
+===================================
+https://youtu.be/4JThtxLCxfY?si=SVt5Gv0RhJibOs07
