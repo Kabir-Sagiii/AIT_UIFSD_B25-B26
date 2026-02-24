@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <script>
+      //JS Code
+      function modifyH1() {
+        //access the h1 and button dom element
+        var h1DomElement = document.querySelector("h1");
+        var button = document.querySelector("button");
+
+        //Modifying the DOM element
+        h1DomElement.innerText = "Hello Javascript";
+        h1DomElement.style.color = "red";
+        button.innerText = "DOM Manipulated";
+        console.log(h1DomElement);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Welcome to JS</h1>
+    <button onclick="modifyH1()">Modify</button>
+  </body>
+</html>

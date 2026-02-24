@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <script>
+      //JS Code
+      function modifyH1() {
+        var count = 0;
+        //access the h1 and button dom element
+        var h1DomElement = document.querySelector("h1");
+        var button = document.querySelector("button");
+
+        //List out all properties of h1domelement
+        for (var key in h1DomElement.style) {
+          console.log(key);
+          count++;
+        }
+
+        console.log(count);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Welcome to JS</h1>
+    <button onclick="modifyH1()">Modify</button>
+  </body>
+</html>

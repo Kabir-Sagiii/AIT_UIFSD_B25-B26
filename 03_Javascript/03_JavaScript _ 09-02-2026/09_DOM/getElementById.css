@@ -1,0 +1,15 @@
+#card {
+  width: 270px;
+  box-shadow: 0 0 10px green;
+  padding: 10px;
+  text-align: center;
+  margin: 50px;
+}
+
+#card button {
+  padding: 15px 30px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
