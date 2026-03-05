@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="./ShowHide.js"></script>
+    <style>
+      div {
+        text-align: center;
+        margin: 100px auto;
+        width: 500px;
+        padding: 20px;
+        box-shadow: 0 0 10px black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>Show / Hide Password</h1>
+      <input type="password" placeholder="password" id="password" />
+      <input type="checkbox" onchange="showHidePassword()" />
+      <label id="title" for="">Check to Show Password</label>
+    </div>
+  </body>
+</html>

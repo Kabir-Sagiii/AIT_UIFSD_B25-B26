@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head></head>
+
+  <body>
+    <script>
+      function createButton() {
+        var btn = document.createElement("button");
+        btn.innerText = "Javascript Button";
+        btn.onclick = function () {
+          var p = document.createElement("p");
+          p.innerText = "hello i am para, created using Javascript";
+          p.onclick = function () {
+            p.remove();
+          };
+          document.querySelector("body").appendChild(p);
+        };
+        document.querySelector("body").appendChild(btn);
+      }
+
+      createButton();
+      createButton();
+      createButton();
+      createButton();
+      createButton();
+    </script>
+  </body>
+</html>

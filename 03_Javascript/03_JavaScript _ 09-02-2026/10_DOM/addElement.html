@@ -1,0 +1,84 @@
+<!-- <!doctype html>
+<html>
+  <head>
+    <script>
+      function removeElement() {
+        var img = document.querySelector("img");
+
+        img.src =
+          "https://static.cdninstagram.com/rsrc.php/v4/yF/r/reN9rvYdLTB.png";
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Change Image</h1>
+    <p id="p1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+      recusandae ipsa maiores alias! Nihil iusto, error enim similique atque
+      ducimus at, aut architecto minus ad exercitationem perspiciatis accusamus
+      ipsum molestias accusantium mollitia hic consequatur numquam iste in
+      laborum omnis nisi nostrum nobis? Harum sapiente alias aliquam officia ex
+      ipsum aspernatur porro. Vero, aperiam dolores eum eaque rem sequi
+      necessitatibus doloremque accusantium enim nisi facere quibusdam vitae
+      iure, a officiis quia amet sunt similique consequuntur, accusamus quos
+      dicta iusto nesciunt? Perferendis doloremque enim velit ipsum, error quam
+      magnam vero quos omnis necessitatibus deserunt nam praesentium commodi!
+      Sed nam ipsum repellendus consequatur!
+    </p>
+    <button onclick="removeElement()">Change Image</button><br /><br />
+    <img
+      src="https://static.xx.fbcdn.net/rsrc.php/v4/y7/r/9z3jqxP6hAH.png"
+      width="500"
+      height="500"
+      alt=""
+    />
+  </body>
+</html> -->
+
+<!doctype html>
+<html>
+  <head>
+    <script>
+      function addElement() {
+        var p = document.createElement("p");
+        p.innerText = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum recusandae ipsa maiores alias! Nihil iusto, error enim similique atque ducimus at, aut architecto minus ad exercitationem perspiciatis accusamus ipsum molestias accusantium mollitia hic consequatur numquam iste in laborum omnis nisi nostrum nobis? Harum sapiente alias aliquam officia ex ipsum aspernatur porro. Vero, aperiam dolores eum eaque rem sequi necessitatibus doloremque accusantium enim nisi facere quibusdam vitae iure, a officiis quia amet sunt similique consequuntur, accusamus quos dicta iusto nesciunt? Perferendis doloremque enim velit ipsum, error quam magnam vero quos omnis necessitatibus deserunt nam praesentium commodi! Sed nam ipsum repellendus consequatur!`;
+
+        var imgDomElement = document.createElement("img");
+        imgDomElement.width = "500";
+        imgDomElement.height = "500";
+        imgDomElement.src =
+          "https://static.cdninstagram.com/rsrc.php/v4/yt/r/pAv7hjq-51n.png";
+
+        var body = document.querySelector("body");
+
+        body.appendChild(imgDomElement);
+        body.appendChild(p);
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Change Image</h1>
+    <p id="p1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+      recusandae ipsa maiores alias! Nihil iusto, error enim similique atque
+      ducimus at, aut architecto minus ad exercitationem perspiciatis accusamus
+      ipsum molestias accusantium mollitia hic consequatur numquam iste in
+      laborum omnis nisi nostrum nobis? Harum sapiente alias aliquam officia ex
+      ipsum aspernatur porro. Vero, aperiam dolores eum eaque rem sequi
+      necessitatibus doloremque accusantium enim nisi facere quibusdam vitae
+      iure, a officiis quia amet sunt similique consequuntur, accusamus quos
+      dicta iusto nesciunt? Perferendis doloremque enim velit ipsum, error quam
+      magnam vero quos omnis necessitatibus deserunt nam praesentium commodi!
+      Sed nam ipsum repellendus consequatur!
+    </p>
+    <button onclick="addElement()">Add New Image</button><br /><br />
+    <img
+      src="https://static.xx.fbcdn.net/rsrc.php/v4/y7/r/9z3jqxP6hAH.png"
+      width="500"
+      height="500"
+      alt=""
+    />
+  </body>
+</html>
