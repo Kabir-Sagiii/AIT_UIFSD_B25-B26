@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./Card.css" />
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+
+  <body>
+    <div id="container"></div>
+
+    <script>
+      const div = React.createElement("div", { id: "card" }, [
+        React.createElement("img", {
+          width: "100%",
+          height: "230",
+          src: "https://shop.theclub.com.hk/media/catalog/product/cache/19102e33d4a7109ef6ef97962e5c7870/i/p/ip17_promax.jpg",
+        }),
+        React.createElement("h2", null, "React - Iphone 17"),
+      ]);
+
+      ReactDOM.render(
+        [div, div, div, div, div, div, div, div],
+        document.getElementById("container"),
+      );
+    </script>
+  </body>
+</html>
