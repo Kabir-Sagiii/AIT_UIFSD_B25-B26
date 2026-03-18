@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "lib": ["ESNext", "DOM"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true
+  }
+}
