@@ -1,0 +1,14 @@
+.top-deal {
+  width: 97%;
+  margin: 100px auto;
+  height: 330px;
+}
+.top-deal h1 {
+  text-shadow: 0 0 10px black;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-top: 20px;
+}
