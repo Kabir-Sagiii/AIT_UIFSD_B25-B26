@@ -24,3 +24,10 @@ url :
 useParams() hook, useSearchParams() Hook and useNavigate() hooks
 -----------------------------------------------------------------------------------------------
 url :
+
+
+Class Component
+================
+url:
+
+
